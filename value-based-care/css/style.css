@@ -104,24 +104,3 @@ a:focus{outline:3px solid #ffd54f;outline-offset:3px}
   .site-nav, .footer-inner{display:none}
   body{color:#000}
 }
-
----
-
-<!-- FILE: fonts/README-font.md -->
-# Self-host a webfont (required by your assignment)
-
-1. Download a free, open-source webfont (e.g. Public Sans, Inter, or Source Sans Pro) in WOFF2 format from a trusted source (Google Fonts allows downloading files but do not use their CDN). Example: https://github.com/uswds/public-sans/releases or https://github.com/rsms/inter/releases
-
-2. Name the file `PublicSans-Regular.woff2` and place it in `/fonts/` relative to `css/styles.css` (i.e. top-level `fonts/PublicSans-Regular.woff2`).
-
-3. The CSS `@font-face` rule in `css/styles.css` already points to this filename. Do NOT reference Google-hosted fonts — the assignment requires a self-hosted font.
-
----
-
-<!-- FILE: images/PLACEHOLDERS.txt -->
-Place your images in the `images/` folder and name them:
-- hero.jpg — large banner image for the homepage
-- feature-1.jpg — small image used in content
-- feature-2.jpg — small image used in content
-
-Make sure images include descriptive alt text in the HTML. Use properly licensed images (Unsplash / Pexels / institution-licensed images) for submission.
